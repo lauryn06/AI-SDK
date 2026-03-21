@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "@ai-sdk/google": "^3.0.52",
+    "@ai-sdk/mistral": "^3.0.27",
+    "@ai-sdk/openai": "^3.0.47",
+    "@ai-sdk/openai-compatible": "^2.0.37",
     "@ai-sdk/react": "^3.0.136",
     "ai": "^6.0.134",
     "lucide-react": "^0.577.0",
