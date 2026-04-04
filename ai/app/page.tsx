@@ -11,7 +11,7 @@ export default function Chat() {
   return (
     <div className="flex flex-col h-screen max-w-md mx-auto px-4 py-6">
       
-      {/* Messages Container */}
+      {/* Messages/ Conversation Container */}
       <div className="flex-1 overflow-y-auto space-y-4 pb-24">
         {messages.map(message => (
           <div
@@ -43,7 +43,7 @@ export default function Chat() {
         ))}
       </div>
 
-      {/* Input Area */}
+      {/* Input/prompt Area */}
       <form
         onSubmit={e => {
           e.preventDefault();
@@ -53,6 +53,7 @@ export default function Chat() {
         }}
         className="fixed bottom-0 left-0 right-0 flex justify-center pb-6"
       >
+        
         <div className="w-full max-w-md px-4">
           <input
             className="w-full p-3 border border-zinc-300 dark:border-zinc-800 rounded-xl shadow focus:outline-none"
